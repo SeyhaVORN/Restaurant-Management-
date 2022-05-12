@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class RestaurantFile extends Model
+{
+    use HasFactory;
+
+    protected $table = 'restaurant_files';
+    protected $fillable = ['restaurant_id', 'image'];
+}

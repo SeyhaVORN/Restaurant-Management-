@@ -1,0 +1,188 @@
+.nav-bar {
+    border-bottom: 2px solid #7e7a7a;
+    /* overflow: hidden; */
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0;
+}
+.link {
+    text-decoration: none;
+    color: beige;
+}
+.btn-danger {
+    float: right;
+    margin-bottom: 50px;
+}
+.link:hover {
+    color: #ffffff;
+}
+
+.card {
+    margin: 10px;
+}
+
+.image {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #7e7a7a;
+}
+.btn-danger {
+    margin-right: 20px;
+}
+.img {
+    border: 2px solid #7e7a7a;
+}
+.bi {
+    font-size: 26px;
+}
+.bi:hover {
+    color: #ff7f8a;
+}
+
+.zz {
+    color: #ff7f8a;
+    font-weight: 800;
+}
+
+.img-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.input-file {
+    display: none !important;
+}
+.label-style {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    background-color: #426aec;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #fff;
+}
+.label-style:hover {
+    background-color: #4266dd;
+    cursor: pointer;
+}
+#num-of-file {
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+#images {
+    width: 100%;
+    /* border: 1px solid #000;   */
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
+}
+figcaption {
+    text-align: center;
+    font-size: 2.4vmin;
+    margin-top: 0.5vmin;
+}
+
+.imgPreview img {
+    padding: 8px;
+    width: 201px;
+    height: 158px;
+}
+.imgPreview-edit {
+    padding: 8px;
+    width: 201px;
+    height: 158px;
+}
+.content {
+    margin-top: 90px;
+}
+.message-alert {
+    margin-top: 68px;
+}
+.image-post {
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #ff7f8a;
+    background: #aebbaf;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .show > .nav-link:hover {
+    color: #ff7f8a;
+    background: #aebbaf;
+    transition: all 0.3s;
+}
+
+.imag-res {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav {
+    height: 100%;
+}
+.main-gallery {
+    position: relative;
+}
+.icon-link {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.icon-xmark {
+    position: absolute;
+    top: 0%;
+    right: 10px;
+    padding: 8px 10px;
+    background: #dfcdcd;
+    border-radius: 33px;
+    margin: 7px 10px;
+    transition: 0.5s;
+}
+
+.icon-xmark:hover {
+    background: #be1515;
+    color: #ffffff;
+    cursor: pointer;
+}
+.link-color {
+    color: #4266dd;
+}
+.dropdown {
+    z-index: 1000;
+}
+.main-nav {
+    padding: 0;
+}
+.logo-span {
+    color: #000000 !important;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav-span {
+    color: #333;
+}
+
+.center {
+    display: flex;
+}
